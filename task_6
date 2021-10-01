@@ -1,0 +1,8 @@
+a=float(input('введите число'))
+s=1
+w=0
+while s>0:
+    s=a%10
+    w=w+s
+    a=a//10
+print(w)
