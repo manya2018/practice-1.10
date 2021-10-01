@@ -1,0 +1,4 @@
+a=float(input('рост :'))
+b=float(input('вес :'))
+d=b/a**2
+print('индекса массы тела:',d)
